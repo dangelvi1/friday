@@ -19,3 +19,13 @@ Installs over the confirmed working version 20261014-1. Adds reversible analysis
 SHA256: `45bba96b99f8980507f340e1c5f68b6baa3a34d29c702ba39815a7efaafe00d4`
 
 36 reported synthetic API/browser tests passed. Actual Windows installation, live PostgreSQL, microphone/OAuth and QBO testing remain separate. No secrets or private uploaded review data are included.
+
+## Bank Review, Sandra and QuickBooks links — 20261014-3
+
+[Download Bank Review v3 ZIP](https://github.com/dangelvi1/friday/raw/refs/heads/main/deliveries/20261014-3/FRIDAY-Bank-Review-Update-v3.zip)
+
+Installs over the confirmed Document Analysis v2 source. Adds bank date-offset evidence and owner-scoped saved selections/notes, complete-read reconciliation with boundary review, validated owner statement upload and CSV review, posted-Purchase category preview connections, actual invoice/customer links, verified invoice create/edit approvals and previewed durable deletion. Preserves the existing Realtime voice session/pointer and expands safe read navigation/filtering. All changed files, installer/restore, audit/plan, AGENTS merge proposal and tests are in the ZIP.
+
+SHA256: `11b898ae6e305611c0efa18a01ac9ed502f9083246a0c4653160f481dbccc2e7`
+
+51 specific automated cases (55 reported Node test entries) passed; TypeScript and standalone frontend compilation passed. Windows installation, live microphone, OAuth and real QuickBooks remain separate owner-PC tests. First account: Nationwide — BOFA CONSTRUCTION – 7015. PDF transaction OCR is not included; use bank CSV rows. Native Pending matching/official reconciliation stays in QuickBooks. Category/invoice writes require explicit verified-owner approval; installation itself changes no accounting records. No secrets, biometric files or private uploads/configuration are included.
