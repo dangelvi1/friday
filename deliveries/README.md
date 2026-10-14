@@ -29,3 +29,13 @@ Installs over the confirmed Document Analysis v2 source. Adds bank date-offset e
 SHA256: `11b898ae6e305611c0efa18a01ac9ed502f9083246a0c4653160f481dbccc2e7`
 
 51 specific automated cases (55 reported Node test entries) passed; TypeScript and standalone frontend compilation passed. Windows installation, live microphone, OAuth and real QuickBooks remain separate owner-PC tests. First account: Nationwide — BOFA CONSTRUCTION – 7015. PDF transaction OCR is not included; use bank CSV rows. Native Pending matching/official reconciliation stays in QuickBooks. Category/invoice writes require explicit verified-owner approval; installation itself changes no accounting records. No secrets, biometric files or private uploads/configuration are included.
+
+## Restore the visible QuickBooks browser feed — 20261014-4
+
+[Download Live Bank Feed fix v4](https://github.com/dangelvi1/friday/raw/refs/heads/main/deliveries/20261014-4/FRIDAY-Live-Bank-Feed-Fix-v4.zip)
+
+For Bank Review v3. Restores a prominent Chrome-feed button/default view, reads available Pending pages from page one before displaying the chosen month, rejects repeated-page evidence and preserves repeated transactions/unreadable-date review. Keeps the posted API view separate. Cards distinguish an unread bank balance from a disconnected account and show current scoped browser balances after a read. No QuickBooks accounting writes; no private statement or credentials included.
+
+SHA256: `5c16e777fce63c3c09827f1c83a429d1b0464b115152bc532cd60121e33e6fbb`
+
+65 reported synthetic test entries passed (59 specific cases plus six parent tests), including existing banking/invoice/voice/Document Analysis regressions and actual Chromium fixture pagination. TypeScript/JavaScript checks pass. Windows installation, the owner's saved Chrome login, native QuickBooks selectors and real August data still require owner-PC testing. Read README-FIRST.md and use the included hash-verified installer/restore scripts.
