@@ -39,3 +39,13 @@ For Bank Review v3. Restores a prominent Chrome-feed button/default view, reads 
 SHA256: `5c16e777fce63c3c09827f1c83a429d1b0464b115152bc532cd60121e33e6fbb`
 
 65 reported synthetic test entries passed (59 specific cases plus six parent tests), including existing banking/invoice/voice/Document Analysis regressions and actual Chromium fixture pagination. TypeScript/JavaScript checks pass. Windows installation, the owner's saved Chrome login, native QuickBooks selectors and real August data still require owner-PC testing. Read README-FIRST.md and use the included hash-verified installer/restore scripts.
+
+## Invoice reference fields — 20261020-5
+
+[Download Invoice Fields v5](https://github.com/dangelvi1/friday/raw/refs/heads/main/deliveries/20261020-5/FRIDAY-Invoice-Fields-Update-v5.zip)
+
+For Live Bank Feed v4. Fixes CLAIM / MONTH alias handling and preserves leading zeros. Adds PO Reference no., header SERVICE, claim/month, carrier/location and job name to invoice view, Sales and Customer360, complete scoped API search and natural voice read searches. Header-only saves require verified owner review, actual exposed text DefinitionIds, current company/realm/environment and SyncToken, with durable receipts and preserved financial lines/totals. API-omitted/ambiguous fields remain visibly unavailable; no guessed values or IDs.
+
+SHA256: `a9472d7fff03e60a085c490afbf3a70107ca28ce61dd60faddcec5ac9941bfd3`
+
+79 reported synthetic API/browser regression entries passed; TypeScript and standalone frontend build passed with existing bundle-size warning. Windows installer, live microphone/OAuth, actual API field exposure and real QuickBooks changes require owner-PC testing. No private config, uploaded documents or live accounting records included or changed. Read README-FIRST.md for the path-independent installer command and hash-verified backup/restore. FRIDAY stays on the owner PC.
