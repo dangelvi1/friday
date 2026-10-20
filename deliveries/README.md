@@ -49,3 +49,11 @@ For Live Bank Feed v4. Fixes CLAIM / MONTH alias handling and preserves leading 
 SHA256: `a9472d7fff03e60a085c490afbf3a70107ca28ce61dd60faddcec5ac9941bfd3`
 
 79 reported synthetic API/browser regression entries passed; TypeScript and standalone frontend build passed with existing bundle-size warning. Windows installer, live microphone/OAuth, actual API field exposure and real QuickBooks changes require owner-PC testing. No private config, uploaded documents or live accounting records included or changed. Read README-FIRST.md for the path-independent installer command and hash-verified backup/restore. FRIDAY stays on the owner PC.
+
+## Google Calendar connection check — 20261020
+
+[Download read-only Calendar checker](https://github.com/dangelvi1/friday/raw/refs/heads/main/deliveries/20261020-calendar-check/FRIDAY-Calendar-Connection-Check.zip)
+
+Standalone owner-PC diagnostic, not an integration installer. Checks saved Gmail OAuth independently from paginated Google Calendar listing; reports display names, time zones and ACL roles. No event reads/writes, file/config changes, new OAuth grants or credentials included. Email address is masked; token values, calendar IDs and raw API errors are suppressed. Source has Gmail tools but no registered Calendar voice/API tools. Salvador confirmed Nationwide uses a shared Google Calendar. Five synthetic checks passed; live access must be checked on the PC.
+
+SHA256: `a2af3da063c3bfe1adf174f74782084f49f23027efe2bfdc5d981aa211038603`
