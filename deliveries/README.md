@@ -87,3 +87,12 @@ For Voice Approvals v7. Fixes live-reported repeated readback/fresh-confirmation
 SHA256: `bf44b815d82dc0b073c0cd73c2e51d9a53a213ad5ddd5e93d8aa046b8d129e86`
 
 121 reported automated API/browser entries passed (108 cases, 13 parents), plus frontend/backend TypeScript and standalone compilation with existing bundle-size warning. Actual Chromium tests cover the reported loop and saved-event UI. Live microphone timing, real Google cancellation/guest updates and Windows installation remain owner-PC checks. No real events, invoices, messages or private uploaded files were changed in cloud tests. Includes verified-baseline installer, backup/restore, tests and proposed AGENTS merge only. Read README-FIRST.md; restart both processes, hard-refresh and reconnect voice.
+## Conversational Calendar — 20261021-9
+
+[Download Conversational Calendar v9](https://github.com/dangelvi1/friday/raw/refs/heads/main/deliveries/20261021-9/FRIDAY-Conversational-Calendar-v9.zip)
+
+For Immediate Voice Commands v8. Remembers actual owner-scoped schedule event IDs, supports numbered focus and title-free “cancel it” for the current saved event, interrupts speech, and accepts short yes/no only for the specific current approval question. Adds reviewed sparse date/time/title/location/notes editing, preserved guests/private fields, conditional ETag updates and durable receipts. Keeps genuine ambiguity selection, draft-versus-saved distinction, separate Personal/Nationwide scope, company confirmation and all existing safeguards.
+
+SHA256: `27b0adf8506a0294e0e3d99669d0367ddc360ec7c9680317ecff2b138a193913`
+
+136 reported synthetic API/browser regression entries passed (121 cases, 15 parents). After final voice-dispatch hardening, all 28 focused Calendar-context/voice/browser entries passed, plus seven final context entries. Frontend/backend TypeScript and standalone Vite compilation passed with the existing bundle-size warning. Includes eleven changed/new app/test files, verified-baseline installer, backup/restore and reviewable AGENTS merge proposal only. No private configuration, credentials, event data, documents or live accounting changes included. Live microphone/Google/guest behavior and Windows installation remain PC checks. Read README-FIRST.md, restart backend/dev, hard-refresh https://localhost:5173/ and reconnect voice.
