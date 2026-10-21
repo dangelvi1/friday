@@ -57,3 +57,13 @@ SHA256: `a9472d7fff03e60a085c490afbf3a70107ca28ce61dd60faddcec5ac9941bfd3`
 Standalone owner-PC diagnostic, not an integration installer. Checks saved Gmail OAuth independently from paginated Google Calendar listing; reports display names, time zones and ACL roles. No event reads/writes, file/config changes, new OAuth grants or credentials included. Email address is masked; token values, calendar IDs and raw API errors are suppressed. Source has Gmail tools but no registered Calendar voice/API tools. Salvador confirmed Nationwide uses a shared Google Calendar. Five synthetic checks passed; live access must be checked on the PC.
 
 SHA256: `a2af3da063c3bfe1adf174f74782084f49f23027efe2bfdc5d981aa211038603`
+
+## Personal / Nationwide Google Calendar — 20261020-6
+
+[Download Calendar v6](https://github.com/dangelvi1/friday/raw/refs/heads/main/deliveries/20261020-6/FRIDAY-Personal-Nationwide-Calendar-v6.zip)
+
+For Invoice Fields v5. Adds separate per-owner Calendar OAuth, explicitly mapped Personal/Nationwide shared calendar destinations, full bounded schedule reads, and event drafts through the existing natural Realtime conversation with visible pointer. Creation requires a centered owner review and click; durable receipts and request IDs prevent duplicate submission after uncertain outcomes. No attendee invites, recurrence, edit/delete, employee bridge access or QuickBooks writes. Gmail token files remain unchanged. Includes verified-baseline installer, backup/restore and exact Google API/redirect/consent instructions.
+
+SHA256: `b4b4da7f2cf250ed72fd66631faa0839d943d538a1f50eb01515196481605f4e`
+
+93 reported synthetic API/browser regression entries passed, with a final targeted Calendar rerun passing all 14 entries. Frontend/backend TypeScript and standalone frontend compilation passed; existing bundle warning remains. Owner-PC Google authorization, calendar permissions/office visibility, actual event creation, microphone and Windows installation remain untested. No real calendar events were created. No credentials, private documents or databases are included.
