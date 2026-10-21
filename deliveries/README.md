@@ -67,3 +67,13 @@ For Invoice Fields v5. Adds separate per-owner Calendar OAuth, explicitly mapped
 SHA256: `1f0529a8bef84aac1afc0916acaf7b4cde9b181d11db17db3bd5b8b7539e39d4`
 
 94 reported synthetic API/browser regression entries passed, including the actual Vite Calendar proxy route; the targeted Calendar suite passed all 15 entries. Frontend/backend TypeScript and standalone frontend compilation passed; existing bundle warning remains. Owner-PC Google authorization, calendar permissions/office visibility, actual event creation, microphone and Windows installation remain untested. No real calendar events were created. No credentials, private documents or databases are included.
+
+## Shared owner voice approvals — 20261020-7
+
+[Download Voice Approvals v7](https://github.com/dangelvi1/friday/raw/refs/heads/main/deliveries/20261020-7/FRIDAY-Voice-Approvals-v7.zip)
+
+For working Calendar v6. Adds a shared explicit-review registry and fresh microphone confirmation through the existing natural Realtime session. Supports Calendar creation, invoice create/edit/header/delete approvals, and private Document Analysis/file confirmations and AI extraction consent, including paired full-page review. Keeps verified-owner/backend/company guards and full spoken production company confirmation. No blanket consent, arbitrary DOM clicking, OAuth/credential voice entry, or biometric identity claim. Existing speaker recognition remains off. Installation preserves private configuration, Google connections, localhost callback, all data and existing financial receipts.
+
+SHA256: `0908ef8801f68045acbef298f9d574990fed9ff1f95ae9f27ea87775eb3a46d7`
+
+109 reported synthetic API/browser regression entries passed (97 specific cases, 12 parents); final targeted voice suite passed all 15 entries. Frontend TypeScript, JS syntax and standalone frontend build passed with existing bundle-size warning. The audio gate is tested against SDK WebRTC playback/transcription event shapes; live microphone/OpenAI transcription timing, actual accounting/calendar writes and Windows installation/rollback still need owner-PC testing. No real invoice/event/private file was changed during cloud validation. Includes path-independent installer, verified backup/restore and proposed AGENTS merge only. Read README-FIRST.md; close old tabs and reopen the paired dashboard from the refreshed voice page.
