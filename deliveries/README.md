@@ -106,3 +106,13 @@ For Conversational Calendar v9. Binds Shopify reads to Salvador's verified SALDA
 SHA256: `2d8601cd190199fa01bfc2d6b90efff33a1f2ea0b9a43c9e4d75c5513db68d88`
 
 151 reported synthetic API/actual-Chromium test entries passed (134 cases, 17 parents), including prior financial/file/voice/Calendar regressions. Frontend/backend TypeScript and standalone compilation passed with the existing bundle-size warning. Includes eleven app/test files, verified-baseline installer, backup/restore and an AGENTS merge proposal only. No private credentials/catalog/Chrome profile/configuration included. Windows installation, microphone, real Shopify pagination and the logged-in Vinted form require owner-PC tests. See README-FIRST.md for the installation command and inspect one real new-item form before extending automation. Private notes stay on the PC and are never uploaded to GitHub.
+
+## Read-only Crosslist dashboard inspector — 20261104-11
+
+[Download Crosslist Inspector v11](https://github.com/dangelvi1/friday/raw/refs/heads/main/deliveries/20261104-11/FRIDAY-Crosslist-Inspector-v11.zip)
+
+For Vinted Browser Preparation v10. Adds a private Crosslist setup panel/voice tool and a dedicated app.crosslist.com dashboard tab. Requires owner verification and manual SALDANA SHOP workspace confirmation, then inspects actual dashboard/editor labels, native select options and currently visible custom dropdown options. Excludes login/password/hidden/email input values, cookies/tokens and arbitrary input values; rejects unrelated origins. Does not click, fill, save, publish, delist or bulk edit. The Companion Page was empty, so live DOM evidence is needed before implementing real batch saves. Requested Vans brand/condition changes remain a plan; color is assessed separately per item. Existing Shopify/Vinted/financial/voice features preserved.
+
+SHA256: `f4e533aef7c872a909ff816c6c9214610af32f616fe1c8d09771653af5c78fd3`
+
+158 reported synthetic API/actual-Chromium entries passed (140 cases, 18 parents), frontend/backend TypeScript passed and standalone compilation passed with the existing bundle warning. Includes five app/test files, verified-baseline installer, backup/restore and an AGENTS merge proposal only. No private inspection/catalog/credential/config data included. Real Crosslist DOM/account, microphone and Windows installation remain PC checks. Read README-FIRST.md, inspect the dashboard and one Vans editor, then capture actual Brand/Condition/Color options. Voice inspection lets a manually opened dropdown remain frontmost.
