@@ -116,3 +116,13 @@ For Vinted Browser Preparation v10. Adds a private Crosslist setup panel/voice t
 SHA256: `f4e533aef7c872a909ff816c6c9214610af32f616fe1c8d09771653af5c78fd3`
 
 158 reported synthetic API/actual-Chromium entries passed (140 cases, 18 parents), frontend/backend TypeScript passed and standalone compilation passed with the existing bundle warning. Includes five app/test files, verified-baseline installer, backup/restore and an AGENTS merge proposal only. No private inspection/catalog/credential/config data included. Real Crosslist DOM/account, microphone and Windows installation remain PC checks. Read README-FIRST.md, inspect the dashboard and one Vans editor, then capture actual Brand/Condition/Color options. Voice inspection lets a manually opened dropdown remain frontmost.
+
+## Reviewed Crosslist corrections — 20261104-12
+
+[Download Crosslist Corrections v12](https://github.com/dangelvi1/friday/raw/refs/heads/main/deliveries/20261104-12/FRIDAY-Crosslist-Corrections-v12.zip)
+
+For Crosslist Inspector v11. Uses the owner-observed product editor/condition/color controls, with per-description brand evidence (not a blanket Vans/store default), per-product photo review, New without tags, and a bounded queue of up to 25 actual individually captured listings. One immutable before/after owner voice/click decision applies the reviewed fields and clicks Save only. Fresh saved-source checks, protected unrelated values/photo references, actual option labels, durable revision claims/receipts, recent history and parallel stop handling prevent silent overwrite/retry loops. Never clicks Post/Delist or claims inventory synchronization. Colors appear only with Vinted selected; native Save propagation/validation still requires a one-item live test.
+
+SHA256: `3b7fd2018cb6dc789c78a2848addabb2a92bb3ab6cdf05dad6c31bf009991b3a`
+
+168 reported automated regression entries passed (149 specific checks, 19 parents). After final hardening, 17 focused Crosslist entries passed again; the final editor run passed all ten entries. Frontend/backend TypeScript and standalone build passed with the existing chunk warning. Includes seven app/test files, baseline/package/hash-verified backup/restore installer, instructions and proposed AGENTS merge only. No private product/photo/receipt/inspection data, credentials, config or Chrome profile included. Physical microphone, actual Crosslist Save/linked-marketplace effects, native validation and Windows installation remain owner-PC checks. Browser checks cannot atomically lock against external concurrent edits. Read README-FIRST.md and verify one real item before using larger batches.
