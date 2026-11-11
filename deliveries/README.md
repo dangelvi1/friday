@@ -249,3 +249,7 @@ Original adult cybernetic/robotic female character concepts shown in FRIDAY welc
 ## Translucent hologram preview — November 11, 2026
 
 [Original side-profile appearance concept](20261111-translucent-preview/friday-translucent-preview.png). Still preview only; no app update or installer.
+
+## November 11, 2026 — v22: moving front-facing hologram and direct calendars
+
+[Download and installation](20261111-22/README.md) · [Installer ZIP](20261111-22/FRIDAY-Translucent-Hologram-v22.zip) · [Silent movement MP4](20261111-22/silent-movement-demo.mp4) · [House setup plan](20261111-22/SMART-HOME-SETUP.md). Direct Personal/Nationwide month and mobile agenda; existing voice/approval workflows preserved. 71 automated checks and 18 package/backup models passed. Home devices and appointment-call handoff remain separate setup work.
