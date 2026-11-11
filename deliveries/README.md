@@ -245,3 +245,7 @@ SHA256: `0fcfcc0c9d4af26b8691bdd03670a08ce41158908d6ca40bff930da9c2fa0a72`
 [Option A screenshot](https://github.com/dangelvi1/friday/raw/refs/heads/main/deliveries/20261111-robot-preview/option-a-screen.png) · [Option B screenshot](https://github.com/dangelvi1/friday/raw/refs/heads/main/deliveries/20261111-robot-preview/option-b-screen.png)
 
 Original adult cybernetic/robotic female character concepts shown in FRIDAY welcome-layout mockups. A is softer/human-like with fine blue/gold circuitry; B has stronger silver-blue faceplates/mechanical neck. These are design stills, not live animation or installed-app screenshots. All 59 app files remained unchanged; no installer, native call or account write. Original generated assets and a source-grounded appointment-call audit/implementation outline are included in the preview folder. Existing phone audio/outbound code is present but uses a fixed restaurant-test brief; configurable doctor/restaurant jobs, owner-approved dialing and calendar-result handoff remain proposed pending caller-ID clarification. No live credentials/provider access was tested or invented.
+
+## Translucent hologram preview — November 11, 2026
+
+[Original side-profile appearance concept](20261111-translucent-preview/friday-translucent-preview.png). Still preview only; no app update or installer.
