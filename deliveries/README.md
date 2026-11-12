@@ -267,3 +267,5 @@ Original adult cybernetic/robotic female character concepts shown in FRIDAY welc
 - [v25 — Chat, friendly calls, scheduled office instructions, approved devices and passkeys (November 12)](20261112-25/README.md)
 
 - [v26 — Vite native-loader import compatibility patch (November 12)](20261112-26/README.md)
+
+- [v27 — Office call receipt recovery, automatic status and seven-day Chat history with Archive (November 12)](20261112-27/README.md)
