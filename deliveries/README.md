@@ -253,3 +253,8 @@ Original adult cybernetic/robotic female character concepts shown in FRIDAY welc
 ## November 11, 2026 — v22: moving front-facing hologram and direct calendars
 
 [Download and installation](20261111-22/README.md) · [Installer ZIP](20261111-22/FRIDAY-Translucent-Hologram-v22.zip) · [Silent movement MP4](20261111-22/silent-movement-demo.mp4) · [House setup plan](20261111-22/SMART-HOME-SETUP.md). Direct Personal/Nationwide month and mobile agenda; existing voice/approval workflows preserved. 71 automated checks and 18 package/backup models passed. Home devices and appointment-call handoff remain separate setup work.
+
+
+## November 12, 2026 — v23: reviewed calls, typed commands and private text transcripts
+
+[Download and installation](20261112-23/README.md) · [Installer ZIP](20261112-23/FRIDAY-Calls-Text-Restaurants-v23.zip) · [Validation](20261112-23/VALIDATION.md). Requires v22. Owner-reviewed own-phone restaurant simulation and real restaurant requests use the existing Twilio number; a reported confirmation goes to a separate Personal/Nationwide Calendar review. Typed commands share the existing voice session. Source-linked restaurant research near 08822 can use relevant owner/shared food preferences. Text transcripts have a next-call on/off button, recipient-permission gate, pause/resume and private view/download. Audio recording remains off. 140 automated checks, frontend/new-module types, standalone build and two package/backup/restore models passed. The same nine existing whole-server QuickBooks type diagnostics remain. No live call, paid research, provider write or Windows/iPhone installation test was performed here.
