@@ -269,3 +269,5 @@ Original adult cybernetic/robotic female character concepts shown in FRIDAY welc
 - [v26 — Vite native-loader import compatibility patch (November 12)](20261112-26/README.md)
 
 - [v27 — Office call receipt recovery, automatic status and seven-day Chat history with Archive (November 12)](20261112-27/README.md)
+
+- [v28 — Natural FRIDAY Marin voice for office reminders, with Spanish/English choice (November 12)](20261112-28/README.md)
