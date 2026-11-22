@@ -271,3 +271,8 @@ Original adult cybernetic/robotic female character concepts shown in FRIDAY welc
 - [v27 — Office call receipt recovery, automatic status and seven-day Chat history with Archive (November 12)](20261112-27/README.md)
 
 - [v28 — Natural FRIDAY Marin voice for office reminders, with Spanish/English choice (November 12)](20261112-28/README.md)
+
+
+## November 22, 2026 - Source-only sanitized export helper
+
+[Download PowerShell script](https://github.com/dangelvi1/friday/raw/refs/heads/main/deliveries/20261122-sanitized-export/Export-FRIDAY-Sanitized.ps1) · [Instructions and validation](20261122-sanitized-export/README.md). Creates a separate, size-limited source ZIP; does not edit/install/restart FRIDAY. Excludes private runtime data, common credential files, binary documents/photos and dependencies; redacts common embedded secret patterns in exported copies. Original code remains unchanged. Eight synthetic PowerShell integration tests passed on Linux; Windows 5.1 and owner-PC files remain untested. Review the archive before sharing; automated filtering cannot guarantee removal of every secret or private detail. No live account operation occurred.
