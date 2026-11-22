@@ -21,6 +21,10 @@ Automated filtering cannot guarantee removal of every secret, personal detail, o
 
 ## Validation
 
-Eight synthetic integration tests passed on PowerShell 7.4.13 for Linux: retained source/instructions and unchanged original bytes; archive entry hashes; private/binary exclusions; escaped and multiline credential literals; known token/key/URL patterns; symlinks; invalid UTF-8/NUL/oversized files; unsafe output rejection; and total-size failure without a partial ZIP (some tests cover multiple cases). Windows PowerShell 5.1 and real owner-PC files were not executed here. No live account or private project content was used in these tests. Test fixtures contain synthetic markers only.
+Eleven synthetic integration tests passed on PowerShell 7.4.13 for Linux: retained source/instructions and unchanged original bytes; archive entry hashes; private/binary exclusions; escaped and multiline credential literals; known token/key/URL patterns; symlinks; invalid UTF-8/NUL/oversized files; unsafe output rejection; and total-size failure without a partial ZIP (some tests cover multiple cases). The corrected verifier also passes actual ZIP fixtures with Windows backslash and mixed-separator entry names, and still rejects corrupted entry content. Windows PowerShell 5.1 and real owner-PC files were not executed here. No live account or private project content was used in these tests. Test fixtures contain synthetic markers only.
 
 Run the included validation using `python tests/test_export.py <path-to-pwsh> -v` when Python and PowerShell are available. This helper does not depend on Python on the owner PC.
+
+## ZIP verification correction
+
+The first export could fail with `Archive source entry missing` on Windows PowerShell/.NET Framework because ZIP entry names can use backslashes. The corrected helper normalizes both separator styles for lookup and rejects duplicate normalized names, while preserving every source-entry SHA-256 check and incomplete-ZIP cleanup. Download the corrected script before rerunning. No original project file was modified by the failed export.

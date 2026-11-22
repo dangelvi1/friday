@@ -139,9 +139,18 @@ try {
     $archive = [IO.Compression.ZipFile]::OpenRead($zipPath)
     try {
         if ($archive.Entries.Count -ne ($included.Count + 1)) { throw 'Archive entry verification failed.' }
+        # Windows PowerShell/.NET Framework can write backslash ZIP entry names.
+        # Normalize the lookup, retaining the same per-entry hash verification.
+        $entryIndex = New-Object 'System.Collections.Generic.Dictionary[string,object]' -ArgumentList ([StringComparer]::Ordinal)
+        foreach ($entry in $archive.Entries) {
+            $normalizedName = $entry.FullName.Replace('\','/')
+            if ($entryIndex.ContainsKey($normalizedName)) { throw 'Duplicate normalized archive entry.' }
+            $entryIndex.Add($normalizedName, $entry)
+        }
         foreach ($item in $included) {
-            $zipEntry = $archive.GetEntry('FRIDAY-Sanitized-Source/' + $item.path)
-            if ($null -eq $zipEntry) { throw 'Archive source entry missing.' }
+            $expectedName = 'FRIDAY-Sanitized-Source/' + $item.path
+            if (-not $entryIndex.ContainsKey($expectedName)) { throw 'Archive source entry missing.' }
+            $zipEntry = $entryIndex[$expectedName]
             $stream = $zipEntry.Open()
             $hasher = [Security.Cryptography.SHA256]::Create()
             try { $digest = ([BitConverter]::ToString($hasher.ComputeHash($stream))).Replace('-','').ToLowerInvariant() }

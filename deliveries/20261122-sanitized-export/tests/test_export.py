@@ -29,8 +29,8 @@ class ExportTests(unittest.TestCase):
         target.write_text(value, encoding='utf-8')
         return target
 
-    def run_export(self, output=None):
-        return subprocess.run([POWERSHELL, '-NoProfile', '-File', str(SCRIPT),
+    def run_export(self, output=None, script=None):
+        return subprocess.run([POWERSHELL, '-NoProfile', '-File', str(script or SCRIPT),
             '-ProjectPath', str(self.project), '-OutputDirectory', str(output or self.output)],
             capture_output=True, text=True, env=os.environ.copy())
 
@@ -122,6 +122,57 @@ const harmless = "FRIDAY";
             self.write(f'src/large{i}.ts', 'x' * (4 * 1024 * 1024))
         result = self.run_export()
         self.assertNotEqual(result.returncode, 0)
+        self.assertFalse(list(self.output.glob('*.zip')))
+
+    def archive_fixture_script(self, separator='backslash', corrupt=False):
+        # Exercise the real verifier against actual ZIPs containing Windows-style
+        # entry names, without adding a test switch to the delivered helper.
+        creation = '[IO.Compression.ZipFile]::CreateFromDirectory($stage, $zipPath, [IO.Compression.CompressionLevel]::Optimal, $false)'
+        source = SCRIPT.read_text()
+        self.assertEqual(source.count(creation), 1)
+        fixture = '''$testArchive = [IO.Compression.ZipFile]::Open($zipPath, [IO.Compression.ZipArchiveMode]::Create)
+    try {
+        $testCount = 0
+        foreach ($testFile in Get-ChildItem -LiteralPath $stage -File -Recurse) {
+            $testName = $testFile.FullName.Substring($stage.Length + 1).Replace('\\','/')
+            SEPARATOR
+            if (CORRUPT -and $testName.EndsWith('main.ts')) {
+                [IO.File]::WriteAllText($testFile.FullName, 'CHANGED-FIXTURE')
+            }
+            [IO.Compression.ZipFileExtensions]::CreateEntryFromFile($testArchive, $testFile.FullName, $testName) | Out-Null
+            $testCount++
+        }
+    } finally { $testArchive.Dispose() }'''
+        change = "$testName = $testName.Replace('/','\\')"
+        if separator == 'mixed':
+            change = 'if ($testCount % 2 -eq 0) { ' + change + ' }'
+        fixture = fixture.replace('SEPARATOR', change).replace('CORRUPT', '$true' if corrupt else '$false')
+        target = self.base / 'fixture-export.ps1'
+        target.write_text(source.replace(creation, fixture))
+        return target
+
+    def test_windows_backslash_entries_verify_with_hashes(self):
+        self.write('src/nested/feature.ts', 'export const value = 1;')
+        result = self.run_export(script=self.archive_fixture_script())
+        self.assertEqual(result.returncode, 0, result.stderr)
+        with zipfile.ZipFile(next(self.output.glob('*.zip'))) as z:
+            self.assertTrue(all('\\' in name for name in z.namelist()))
+            contents = {n.replace('\\', '/'): z.read(n) for n in z.namelist()}
+            report = json.loads(contents['FRIDAY-Sanitized-Source/SANITIZE-REPORT.json'])
+            for item in report['files']:
+                self.assertEqual(hashlib.sha256(contents['FRIDAY-Sanitized-Source/' + item['path']]).hexdigest(), item['sha256'])
+
+    def test_mixed_entry_separators_verify(self):
+        result = self.run_export(script=self.archive_fixture_script(separator='mixed'))
+        self.assertEqual(result.returncode, 0, result.stderr)
+        with zipfile.ZipFile(next(self.output.glob('*.zip'))) as z:
+            self.assertTrue(any('\\' in name for name in z.namelist()))
+            self.assertTrue(any('/' in name for name in z.namelist()))
+
+    def test_windows_backslash_entries_still_reject_corrupted_content(self):
+        result = self.run_export(script=self.archive_fixture_script(corrupt=True))
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn('Archive source hash verification failed.', result.stderr)
         self.assertFalse(list(self.output.glob('*.zip')))
 
 
