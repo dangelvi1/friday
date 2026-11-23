@@ -290,3 +290,7 @@ Original adult cybernetic/robotic female character concepts shown in FRIDAY welc
 ## v31 — Shopify apostrophe readback verification
 
 [Download v31](20261122-31/FRIDAY-Shopify-Verification-v31.zip) · [Install and test instructions](20261122-31/README.md). Requires v30. Recognizes the confirmed plain-paragraph apostrophe encoding difference, records field-level comparisons and continues independent approved products after real readback differences. Permanent submission guards remain. 162 automated test entries and nine PowerShell package scenarios passed; live owner-PC verification remains.
+
+## v32 — Local receipt replacement retries
+
+[Download v32](20261122-32/FRIDAY-Receipt-Save-v32.zip) · [Install and verify](20261122-32/README.md). Requires v31. Bounded retries for Windows EPERM/EACCES/EBUSY replacing local commerce JSON, with old destination preserved on failure. No provider mutation retry or submission-guard reset. Local persistence phases are distinguished from provider failures. 170 reported test entries, types/build and nine PowerShell package scenarios passed. Live Windows/Shopify verification remains.
