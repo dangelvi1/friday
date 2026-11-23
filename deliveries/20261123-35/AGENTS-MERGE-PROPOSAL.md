@@ -1,0 +1,3 @@
+# Proposed additions only — keep existing AGENTS.md
+
+Search-source URL membership does not prove exact item identity, price or demand. General search/category pages are discovery links; do not use their prices in comparable economics. Distinguish AI-extracted quotes from independently verified checkout/sold evidence. Do not infer demand or days-to-sell from asking prices or unsupported seller counts. Owned-stock selling analysis uses scoped inventory/cost notes before hypothetical supplier purchases. Unknown stock/costs remain unknown; show targeted versus returned/evidence-qualified coverage. No automatic extra paid retries or ad spending. Legacy weak research stays preserved as history but must not be displayed as current validated evidence.

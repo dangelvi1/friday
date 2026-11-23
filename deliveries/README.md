@@ -302,3 +302,7 @@ Original adult cybernetic/robotic female character concepts shown in FRIDAY welc
 ## v34 — Supported taxonomy category verification
 
 [Download v34](20261123-34/FRIDAY-Category-Review-v34.zip) · [Install and verify](20261123-34/README.md). Requires v33. Replaces invalid taxonomy.category query with categories connection reads, exact-ID verification and guarded pagination. Owner approval, before-value/readback and dependency protections remain. 172 automated test entries, types/build and nine PowerShell package scenarios passed. Test one current category before reviewing the remaining batch; no new paid research required. Live PC/provider validation remains.
+
+## v35 — Market evidence and owned-stock costs, Google discovery
+
+[Download v35](20261123-35/FRIDAY-Market-Evidence-v35.zip) · [Install and verify](20261123-35/README.md). Requires v34. Rejects general search-page prices, requires direct quoted exact-item leads, removes unsupported demand/sales-rate forecasts, shows scoped stock/cost snapshots and research coverage, and adds Google discovery links. Automated research searches broadly through the configured provider; this does not claim direct Google browser automation. 177 reported test entries, types/build and nine PowerShell package scenarios passed. No live provider or ad/price changes performed.
