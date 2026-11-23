@@ -1,0 +1,11 @@
+# Proposed additions only - do not overwrite AGENTS.md
+
+- Keep the existing modular PC-hosted FRIDAY app, one natural voice session, owner/device protections, company isolation and the separated employee service. The original handoff is history, not implementation evidence.
+- Distinguish the shared approval review ID from the actual integration receipt ID. Return explicit typed workflow/receipt identifiers after approval. Opening diagnostics must not silently select another receipt or hide its original error.
+- Record real receipt event times. Use America/New_York 12-hour labels with seconds/zone. Older file-save timestamps must be labeled as such; do not infer creation/approval times from expiry.
+- A hidden/trashed receipt still protects native submissions. Never delete permanent claims to make a request pass. Only a fresh exact approval plus durable owned-terminal-receipt proof of no dispatch can recover an exact unsubmitted reservation, through an exclusive retained journal. Unknown/submitted/active histories stay blocked.
+- Read-only current-value verification can update exact matching private suggestion labels. Preserve original submission status and claims, owner/report scope, stale edited proposal handling, and explicit API comparison evidence. Do not equate current matching values with proof that the original request succeeded.
+- Receipt Delete/Restore is reversible private visibility with one current owner approval; active batches cannot be hidden. Restore/reload remains available; failed actions retain context.
+- Clickable Today totals must disclose their basis, accessible order scope, incomplete line summaries and the order/payment/fulfillment distinction. Use actual record IDs and direct pinned-store links; never invent customer data or settlement/profit metrics.
+- Reveal requested results in the active dashboard, point visibly, and preserve assistant position, typing, manual scrolling, hidden panels and active reviews. Scrolling never authorizes a click/write or operates the OS mouse.
+- Preserve successful-form clearing, failure retention, exact amounts/leading zeros, verification/backup/guarded restore, no secrets in Git/logs, and the separation of cloud fixtures from live Windows/microphone/OAuth/provider testing.
