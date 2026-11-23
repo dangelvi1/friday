@@ -298,3 +298,7 @@ Original adult cybernetic/robotic female character concepts shown in FRIDAY welc
 ## v33 — Default SEO title evidence and plain description corrections
 
 [Download v33](20261123-33/FRIDAY-SEO-Defaults-v33.zip) · [Install and verify](20261123-33/README.md). Requires v32. Distinguishes a raw null override from an exact live product-title default, prepares plain SEO entity corrections for fresh owner review, and preserves sanitized native category-review diagnostics. Permanent submission guards remain. 177 test entries passed across final regression runs; one initial unchanged chat-upload check timed out then passed separately. Types/build and nine PowerShell package scenarios passed. Live PC/provider verification remains.
+
+## v34 — Supported taxonomy category verification
+
+[Download v34](20261123-34/FRIDAY-Category-Review-v34.zip) · [Install and verify](20261123-34/README.md). Requires v33. Replaces invalid taxonomy.category query with categories connection reads, exact-ID verification and guarded pagination. Owner approval, before-value/readback and dependency protections remain. 172 automated test entries, types/build and nine PowerShell package scenarios passed. Test one current category before reviewing the remaining batch; no new paid research required. Live PC/provider validation remains.
