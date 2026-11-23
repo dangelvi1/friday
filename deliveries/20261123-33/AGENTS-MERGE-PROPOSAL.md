@@ -1,0 +1,3 @@
+# Proposed additions — keep existing AGENTS.md
+
+Distinguish raw stored Shopify overrides from effective default titles. A default title matches only when its exact live product-title source equals the approved title; preserve the raw null and explicit comparison basis. Never silently invent a stored override or weaken pre-write concurrency checks. Decode HTML entities only in proposed plain SEO text; preserve exact before values and review before native writes. Include sanitized native field-review diagnostics instead of hiding category schema/provider failures behind a generic message. Keep uncertain submission evidence and guards.

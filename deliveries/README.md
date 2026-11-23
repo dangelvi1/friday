@@ -294,3 +294,7 @@ Original adult cybernetic/robotic female character concepts shown in FRIDAY welc
 ## v32 — Local receipt replacement retries
 
 [Download v32](20261122-32/FRIDAY-Receipt-Save-v32.zip) · [Install and verify](20261122-32/README.md). Requires v31. Bounded retries for Windows EPERM/EACCES/EBUSY replacing local commerce JSON, with old destination preserved on failure. No provider mutation retry or submission-guard reset. Local persistence phases are distinguished from provider failures. 170 reported test entries, types/build and nine PowerShell package scenarios passed. Live Windows/Shopify verification remains.
+
+## v33 — Default SEO title evidence and plain description corrections
+
+[Download v33](20261123-33/FRIDAY-SEO-Defaults-v33.zip) · [Install and verify](20261123-33/README.md). Requires v32. Distinguishes a raw null override from an exact live product-title default, prepares plain SEO entity corrections for fresh owner review, and preserves sanitized native category-review diagnostics. Permanent submission guards remain. 177 test entries passed across final regression runs; one initial unchanged chat-upload check timed out then passed separately. Types/build and nine PowerShell package scenarios passed. Live PC/provider verification remains.
