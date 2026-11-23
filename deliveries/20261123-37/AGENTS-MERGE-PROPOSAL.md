@@ -1,0 +1,5 @@
+# Proposed additions only — keep existing AGENTS.md
+
+Distinguish saved pricing lookups from actual web research. A local miss never proves online unavailability. Resolve actual store product/variant IDs, clarify ambiguous names, preserve unknown costs and refresh pricing after private cost edits. Focused research must not consume the nightly full-report slot or automatically repeat paid requests.
+
+Product-photo preparation uses owner-uploaded originals, keeps them intact, and never automatically selects/publishes generated assets. Preserve owner scope, stale-revision and original-submission guards. Require explicit copy selection and a fresh final native review after picture changes. Keep unsaved typed facts during long operations. Online reference pictures are not automatically listing assets. Do not infer measured shipping weight, actual stock/condition or rights/quality guarantees from an image. State real provider/Windows/Shopify tests separately from synthetic checks. Do not export private pictures, drafts, credentials or database files.

@@ -310,3 +310,11 @@ Original adult cybernetic/robotic female character concepts shown in FRIDAY welc
 ## v36 — Explicit Google current-device/main-PC routing
 
 [Download v36](20261123-36/FRIDAY-Google-Target-v36.zip) · [Install and test](20261123-36/README.md). Requires v35. Google voice tool now dispatches explicit main-PC searches through the existing backend browser route rather than current-device loopback. No silent fallback, Local Agent startup, new backend endpoint or auth change. Both voice source families retained; hard-refresh/reconnect required. 194 test entries across final suites, both family types/build and nine PowerShell package scenarios passed. Main-PC/Local Agent/Google live checks remain.
+
+## Research and Photos — 20261123-37
+
+[Download ZIP](https://github.com/dangelvi1/friday/raw/refs/heads/main/deliveries/20261123-37/FRIDAY-Research-Photos-v37.zip)
+
+Requires v36. Adds named focused store-product web research, fresh saved-cost pricing, exact store-variant price leads, and optional original-photo image preparation with explicit preview/select/restore before owner-reviewed Shopify creation/publication. Original photos and private data remain. Includes both supported voice families, guarded source backup/restore and complete install instructions. 212 automated entries and nine actual Linux PowerShell package scenarios pass; live image quality, Shopify publication and Windows/iPhone testing remain.
+
+SHA256: `db09ba3241976b93f906ce2d1598fd87f263e216735f9a4221d4bd27cf9eca54`
