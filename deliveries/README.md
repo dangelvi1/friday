@@ -306,3 +306,7 @@ Original adult cybernetic/robotic female character concepts shown in FRIDAY welc
 ## v35 — Market evidence and owned-stock costs, Google discovery
 
 [Download v35](20261123-35/FRIDAY-Market-Evidence-v35.zip) · [Install and verify](20261123-35/README.md). Requires v34. Rejects general search-page prices, requires direct quoted exact-item leads, removes unsupported demand/sales-rate forecasts, shows scoped stock/cost snapshots and research coverage, and adds Google discovery links. Automated research searches broadly through the configured provider; this does not claim direct Google browser automation. 177 reported test entries, types/build and nine PowerShell package scenarios passed. No live provider or ad/price changes performed.
+
+## v36 — Explicit Google current-device/main-PC routing
+
+[Download v36](20261123-36/FRIDAY-Google-Target-v36.zip) · [Install and test](20261123-36/README.md). Requires v35. Google voice tool now dispatches explicit main-PC searches through the existing backend browser route rather than current-device loopback. No silent fallback, Local Agent startup, new backend endpoint or auth change. Both voice source families retained; hard-refresh/reconnect required. 194 test entries across final suites, both family types/build and nine PowerShell package scenarios passed. Main-PC/Local Agent/Google live checks remain.
