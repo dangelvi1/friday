@@ -318,3 +318,11 @@ Original adult cybernetic/robotic female character concepts shown in FRIDAY welc
 Requires v36. Adds named focused store-product web research, fresh saved-cost pricing, exact store-variant price leads, and optional original-photo image preparation with explicit preview/select/restore before owner-reviewed Shopify creation/publication. Original photos and private data remain. Includes both supported voice families, guarded source backup/restore and complete install instructions. 212 automated entries and nine actual Linux PowerShell package scenarios pass; live image quality, Shopify publication and Windows/iPhone testing remain.
 
 SHA256: `db09ba3241976b93f906ce2d1598fd87f263e216735f9a4221d4bd27cf9eca54`
+
+## AITAN Marketing Studio Phase 1 — 20261125-38
+
+[Download ZIP](https://github.com/dangelvi1/friday/raw/refs/heads/main/deliveries/20261125-38/FRIDAY-AITAN-Phase1-v38.zip)
+
+Requires installed v37. Adds functional owner-only PostgreSQL company/marketing customer workspaces inside the existing FRIDAY dashboard. Owner companies and outside customer businesses use the same model with internal/external labels; customers have NO login/portal. Independent brand/contact/budget/planning profiles, add/edit/deactivate, typed/voice actions, scoped activity, private snapshot export, transactional explicit initialization and guarded source backup/rollback. No advertising, generation or publishing integration is claimed or enabled. Both voice families supported. 227 reported automated entries and nine actual Linux PowerShell package scenarios pass; live Windows/database/microphone testing remains.
+
+SHA256: `73f3410e8d6dc30d1b9a1a2a882270471db8701b3aa0546eb927dd8993e6cc7d`
