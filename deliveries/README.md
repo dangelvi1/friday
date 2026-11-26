@@ -334,3 +334,9 @@ SHA256: `73f3410e8d6dc30d1b9a1a2a882270471db8701b3aa0546eb927dd8993e6cc7d`
 Requires v38. Adds a real owner-only AITAN Ads section: persistent company-scoped campaign drafts, Manhattan water test/negative and competitor starter review, official Google OAuth with encrypted refresh storage, MCC-to-advertiser selection, fresh account read testing and historical Keyword Planner reads. Private Google developer/OAuth/API configuration required. No campaign-create/enable/budget mutation or ad launch endpoint, no spending or fake live metrics. Customer access remains excluded. 242 reported automated entries and nine Linux PowerShell package scenarios passed; live PC/API permissions/version testing remains. Read GOOGLE-ADS-SETUP.md and full install/rollback instructions.
 
 SHA256: `33f2d46051b871904fe31ac9e0e050fb68fed9b2611a8fe08649d2b74f911cab`
+
+## Private Google Ads configuration helper — 20261126
+
+[Download PowerShell helper](https://raw.githubusercontent.com/dangelvi1/friday/main/deliveries/20261126-google-ads-config/Configure-FRIDAY-Google-Ads.ps1). Hidden prompts, preserved existing key/configuration, verified private .env backup and no Google request/ad launch. Seven synthetic PowerShell scenarios pass. New API-version default v26 is sourced from the official Google Ads Python SDK; existing version settings are retained.
+
+SHA256: `0e7bb3f7e484ab739931b95abf896fd56398f4407880c68f9d9b94c1e316214f`

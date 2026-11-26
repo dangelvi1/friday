@@ -1,0 +1,1 @@
+0e7bb3f7e484ab739931b95abf896fd56398f4407880c68f9d9b94c1e316214f  Configure-FRIDAY-Google-Ads.ps1

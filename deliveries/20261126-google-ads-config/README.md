@@ -1,0 +1,11 @@
+# Private Google Ads configuration helper
+
+Run this on the FRIDAY PC to add developer/OAuth credentials without typing them into chat or PowerShell command history. Existing nonempty encryption key, API-version/callback settings and unrelated .env content are preserved. An existing .env is backed up and byte-verified before replacement. The helper prompts for secrets with hidden input, generates a key only when absent/empty, and performs no Google request or ad launch.
+
+Use the ten-digit AITAN MCC Manager ID, not Nationwide's advertiser ID. Both accounts remain linked; select Nationwide inside FRIDAY afterward. Stop both FRIDAY servers first. The helper requires an existing project/server.ts, creates a private .env backup and does not edit source or WordPress settings. Google Ads Studio v39 is required for the connection UI; this helper does not install it.
+
+Default for a NEW API-version setting is v26, read from the official Google Ads Python SDK `_VALID_API_VERSIONS` and `_DEFAULT_VERSION` on 2026-11-26: https://raw.githubusercontent.com/googleads/google-ads-python/main/google/ads/googleads/client.py . This is not a successful account API test. Existing nonempty versions are not changed; a new version can be supplied through -ApiVersion. No remote code is downloaded/executed by the helper. Production Google developer-token permissions, OAuth setup and a matching authorized redirect are still needed.
+
+After save, restart the backend, open FRIDAY at https://friday.dangelvi.com/dashboard → AITAN → Nationwide → Google Ads Manager → Connect with Google → List linked advertiser accounts → select Nationwide → Verify and assign → Test connection. The existing Google Ads Studio is read-only; no ads launch from configuration.
+
+The .env backup contains private provider secrets; never share or commit it. Preserve the encryption key with the private database backup. The helper validates before replacing configuration; it rejects duplicate target settings or unsupported quotes instead of silently altering them. Windows ACL preservation is implemented; automated execution uses Linux PowerShell with synthetic values, not a live Windows/credential claim. If Windows/global process environment overrides .env, update that existing configuration privately too.
