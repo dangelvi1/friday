@@ -364,3 +364,11 @@ SHA256: `e3916a78e5f98eeceee338c214cc3d46f3f07974e81ca9213bff98ecb889273e`
 Requires installed v41, both voice families. Supports exact https://localhost:5173 and the existing configured public callback, recording/binding each one-time state and using the same URI at exchange. Explicit additive workspace upgrade preserves plans/encrypted connections, cancels legacy unfinished logins, and leaves v41 consent/owner/TLS/Cloudflare protection intact. No env/credential/frontend/dependency changes or Ads launch. 70 reported automated entries, strict Ads/route types and nine Linux PowerShell package scenarios pass; real-PC/Google tests remain. Register both exact URIs in the same Google Web OAuth client.
 
 SHA256: `32329dcd7b2b09d7997e9f4ba1769a1c69ce39b63c23f0f548b6771d6601ec44`
+
+## Google Ads safe reason diagnostics — 20261126-43
+
+[Download ZIP](https://github.com/dangelvi1/friday/raw/refs/heads/main/deliveries/20261126-43/FRIDAY-Google-Ads-Diagnostics-v43.zip) · [Install and retry](20261126-43/README.md).
+
+Cumulative backend-only update over exact v41/v42, both voice families. Adds allowlisted native Google error reason codes and fixed guidance while excluding raw messages/metadata/request IDs/credentials. Includes local/public callback support; v41 consent stays unchanged. No configuration reset, extra diagnostic API call, retry, Ads launch or private-data export. 80 reported test entries, targeted backend types and 15 Linux PowerShell package scenarios pass. Actual Google rejection/root cause still requires owner-PC retry; this package does not grant permissions.
+
+SHA256: `360331d18f0cc4013c4f44e560d1f1d552db72c6f1b3310089ec739ee140f635`
