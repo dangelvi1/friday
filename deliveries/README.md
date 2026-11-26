@@ -348,3 +348,11 @@ SHA256: `0e7bb3f7e484ab739931b95abf896fd56398f4407880c68f9d9b94c1e316214f`
 Cumulative exact v38/v39 source profiles, both voice families. Owner-only company-scoped official WordPress REST connections, encrypted Application Passwords, real pages/posts reads, source editing, exact approved draft/edit/publication, supported registered SEO meta, verified receipts, no-repeat guards and reviewed rollback. Double-click install/build and private key helper included. No site was connected/changed here; first real-PC unpublished-draft test remains. Google Ads connections are included but ads remain read-only/no launch. 254 final reported test entries, both source-family types/build, 13 Linux PowerShell package scenarios and three private-key helper scenarios passed. Themes/plugins/media/bulk/automatic SEO audits remain pending.
 
 SHA256: `823c16cc675c551b91af89cea9f2d67a13130fd2b9e1afa0f2188993e11a634b`
+
+## Combined Website Manager and Ads consent — 20261126-41
+
+[Download single ZIP](https://github.com/dangelvi1/friday/raw/refs/heads/main/deliveries/20261126-41/FRIDAY-Combined-v41.zip) · [Install/restore](20261126-41/README.md) · [PC test](20261126-41/TEST-ON-PC.md).
+
+Cumulative exact v38/v39/v40 source profiles, both voice families: includes v40 WordPress manager, read-only Google Ads tools and a local per-request OpenAI disclosure/checkbox consent gate around every conversational Ads tool operation. Decline/Escape cancels that operation; manual dashboard use stays available. Owner/context changes suppress disclosure, no blanket or model-granted permission. Includes guarded backup/build/restore and private credential/key helpers. No native site changes or Ads launch on installation; no customer login. 177 final reported automated entries, both frontend voice-family types/target backend/build and 17 Linux PowerShell package scenarios passed. Real PC/Google/WordPress and public policy checks remain.
+
+SHA256: `e3916a78e5f98eeceee338c214cc3d46f3f07974e81ca9213bff98ecb889273e`
