@@ -356,3 +356,11 @@ SHA256: `823c16cc675c551b91af89cea9f2d67a13130fd2b9e1afa0f2188993e11a634b`
 Cumulative exact v38/v39/v40 source profiles, both voice families: includes v40 WordPress manager, read-only Google Ads tools and a local per-request OpenAI disclosure/checkbox consent gate around every conversational Ads tool operation. Decline/Escape cancels that operation; manual dashboard use stays available. Owner/context changes suppress disclosure, no blanket or model-granted permission. Includes guarded backup/build/restore and private credential/key helpers. No native site changes or Ads launch on installation; no customer login. 177 final reported automated entries, both frontend voice-family types/target backend/build and 17 Linux PowerShell package scenarios passed. Real PC/Google/WordPress and public policy checks remain.
 
 SHA256: `e3916a78e5f98eeceee338c214cc3d46f3f07974e81ca9213bff98ecb889273e`
+
+## Local Google Ads OAuth — 20261126-42
+
+[Download ZIP](https://github.com/dangelvi1/friday/raw/refs/heads/main/deliveries/20261126-42/FRIDAY-Local-Google-Ads-v42.zip) · [Install, upgrade and test](20261126-42/README.md).
+
+Requires installed v41, both voice families. Supports exact https://localhost:5173 and the existing configured public callback, recording/binding each one-time state and using the same URI at exchange. Explicit additive workspace upgrade preserves plans/encrypted connections, cancels legacy unfinished logins, and leaves v41 consent/owner/TLS/Cloudflare protection intact. No env/credential/frontend/dependency changes or Ads launch. 70 reported automated entries, strict Ads/route types and nine Linux PowerShell package scenarios pass; real-PC/Google tests remain. Register both exact URIs in the same Google Web OAuth client.
+
+SHA256: `32329dcd7b2b09d7997e9f4ba1769a1c69ce39b63c23f0f548b6771d6601ec44`
