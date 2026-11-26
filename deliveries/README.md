@@ -340,3 +340,11 @@ SHA256: `33f2d46051b871904fe31ac9e0e050fb68fed9b2611a8fe08649d2b74f911cab`
 [Download PowerShell helper](https://raw.githubusercontent.com/dangelvi1/friday/main/deliveries/20261126-google-ads-config/Configure-FRIDAY-Google-Ads.ps1). Hidden prompts, preserved existing key/configuration, verified private .env backup and no Google request/ad launch. Seven synthetic PowerShell scenarios pass. New API-version default v26 is sourced from the official Google Ads Python SDK; existing version settings are retained.
 
 SHA256: `0e7bb3f7e484ab739931b95abf896fd56398f4407880c68f9d9b94c1e316214f`
+
+## WordPress Website Manager — 20261126-40
+
+[Download ZIP](https://github.com/dangelvi1/friday/raw/refs/heads/main/deliveries/20261126-40/FRIDAY-WordPress-Manager-v40.zip) · [Install, connect and rollback](20261126-40/README.md).
+
+Cumulative exact v38/v39 source profiles, both voice families. Owner-only company-scoped official WordPress REST connections, encrypted Application Passwords, real pages/posts reads, source editing, exact approved draft/edit/publication, supported registered SEO meta, verified receipts, no-repeat guards and reviewed rollback. Double-click install/build and private key helper included. No site was connected/changed here; first real-PC unpublished-draft test remains. Google Ads connections are included but ads remain read-only/no launch. 254 final reported test entries, both source-family types/build, 13 Linux PowerShell package scenarios and three private-key helper scenarios passed. Themes/plugins/media/bulk/automatic SEO audits remain pending.
+
+SHA256: `823c16cc675c551b91af89cea9f2d67a13130fd2b9e1afa0f2188993e11a634b`
