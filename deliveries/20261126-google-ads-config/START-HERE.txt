@@ -1,0 +1,13 @@
+FRIDAY GOOGLE ADS SETUP FILES
+
+1. Stop both running FRIDAY servers with Ctrl+C.
+2. Extract the ENTIRE folder from the ZIP. Do not run files from inside the ZIP preview.
+3. Double-click Configure-Google-Ads.cmd. It targets S:\AI\friday-ai.
+4. Enter the Google Ads developer token, OAuth client ID and OAuth client secret when prompted. Input is hidden. Enter the AITAN Manager customer ID (not Nationwide's advertiser ID).
+5. Existing unrelated settings, encryption key and nonempty API-version/callback settings are retained. Missing settings/key are created. A verified private .env backup is made first.
+6. Restart your existing FRIDAY backend and frontend once, using your normal shortcuts or commands. This file does not start a second server.
+7. Open https://friday.dangelvi.com/dashboard -> AITAN -> Nationwide -> Google Ads Manager -> Connect with Google -> List linked advertiser accounts -> select Nationwide -> Verify and assign -> Test connection.
+
+No manual code/env editing is needed. Secret values are not included in these files; enter them privately on your PC, never in chat. No WordPress credentials or source files are changed. Google Ads Studio v39 must already be installed for its connection screen. This setup does not install v39, submit campaigns or authorize spending. Approved production Google developer/OAuth access and matching callback are still needed.
+
+The .env backup contains private provider secrets. Keep it private and do not upload it. Preserve your encryption key. Tests use synthetic input and Linux PowerShell; live Windows/account validation remains. API version default for a NEW setting is v26 from the official Google Ads Python SDK; existing version settings are retained.
