@@ -1,0 +1,2 @@
+4ed99d1687bad4d1f69dbe4ad0dde22c9a2f440431fb860895e61efed1fce989  FRIDAY-Google-Diagnostic-Runner.zip
+23af030130c50492f7ef71d6fee39831e9041cddb9fef4512276fd47659b8c4f  README.md

@@ -372,3 +372,11 @@ SHA256: `32329dcd7b2b09d7997e9f4ba1769a1c69ce39b63c23f0f548b6771d6601ec44`
 Cumulative backend-only update over exact v41/v42, both voice families. Adds allowlisted native Google error reason codes and fixed guidance while excluding raw messages/metadata/request IDs/credentials. Includes local/public callback support; v41 consent stays unchanged. No configuration reset, extra diagnostic API call, retry, Ads launch or private-data export. 80 reported test entries, targeted backend types and 15 Linux PowerShell package scenarios pass. Actual Google rejection/root cause still requires owner-PC retry; this package does not grant permissions.
 
 SHA256: `360331d18f0cc4013c4f44e560d1f1d552db72c6f1b3310089ec739ee140f635`
+
+## Temporary Google error diagnostic runner — 20261126
+
+[Download ZIP](https://github.com/dangelvi1/friday/raw/refs/heads/main/deliveries/20261126-google-runner/FRIDAY-Google-Diagnostic-Runner.zip) · [Run and restore normal startup](20261126-google-runner/README.md).
+
+Starts existing backend with a temporary in-memory observer, no source/.env/schema installation. Captures only official v26 authorization/authentication enum codes and fixed message classifications from at most five failed HTTPS Google Ads responses. Includes newer Cloud-project reasons missing in v43, numeric enums and missing wrappers. Native requests/responses preserved; no retries/extra API calls or raw messages/IDs/metadata/credentials logged. Ten controlled checks including actual Linux PowerShell/Node/tsx fixture startup and real v43 client integration pass. Real Windows/Google startup remains operator-side. Stop with Ctrl+C and return to normal npm.cmd run server.
+
+SHA256: `4ed99d1687bad4d1f69dbe4ad0dde22c9a2f440431fb860895e61efed1fce989`
