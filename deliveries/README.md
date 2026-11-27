@@ -380,3 +380,11 @@ SHA256: `360331d18f0cc4013c4f44e560d1f1d552db72c6f1b3310089ec739ee140f635`
 Starts existing backend with a temporary in-memory observer, no source/.env/schema installation. Captures only official v26 authorization/authentication enum codes and fixed message classifications from at most five failed HTTPS Google Ads responses. Includes newer Cloud-project reasons missing in v43, numeric enums and missing wrappers. Native requests/responses preserved; no retries/extra API calls or raw messages/IDs/metadata/credentials logged. Ten controlled checks including actual Linux PowerShell/Node/tsx fixture startup and real v43 client integration pass. Real Windows/Google startup remains operator-side. Stop with Ctrl+C and return to normal npm.cmd run server.
 
 SHA256: `4ed99d1687bad4d1f69dbe4ad0dde22c9a2f440431fb860895e61efed1fce989`
+
+## Scoped Ads workflow consent and private draft review — 20261127-44
+
+[Download ZIP](https://github.com/dangelvi1/friday/raw/refs/heads/main/deliveries/20261127-44/FRIDAY-Ads-Workflow-v44.zip) · [Install and review](20261127-44/README.md) · [PC test](20261127-44/TEST-ON-PC.md).
+
+Cumulative exact v41/v42/v43, both voice families. Explicit Allow once or company-scoped 15-minute tab consent with visible revoke/expiry/owner/context protection; no saved blanket grant. Linked account discovery stays private in the UI. Persistent company/all-business private draft-review cards, dates, ad copy, negatives, evidence and guarded open/edit. Recent successful research reuse and same-backend duplicate/failure protection; direct dashboard refresh remains explicit. Current safe Google codes/operation names and optional private local token comparison. No Google approval, new credentials, ad launch or legal-page publication. 121 selected reported automated entries, both frontend family types/target backend/build, 19 actual Linux PowerShell package scenarios and three private token-helper checks pass. Real PC/Google checks remain.
+
+SHA256: `54d326cce0954a8e101113f84598fdcfe480dc1b048be630a86f40717a777e71`
